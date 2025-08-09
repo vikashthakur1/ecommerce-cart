@@ -12,7 +12,8 @@ export default function Cart() {
   const subtotal = items.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className=" p-4 max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div >
+    <div className="  p-4 max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-lg font-medium text-gray-900 mb-6">Shopping Cart</h2>
 
       <div className="flow-root">
@@ -61,6 +62,7 @@ export default function Cart() {
         </p>
        
       </div>
+    </div>
     </div>
   );
 }
